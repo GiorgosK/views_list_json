@@ -1,0 +1,5 @@
+name: 'views_list_json'
+type: module
+description: 'Get list of views in json'
+core: 8.x
+package: 'Custom'

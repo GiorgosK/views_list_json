@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains views_list_json.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function views_list_json_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the views_list_json module.
+    case 'help.page.views_list_json':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Returns views list in json format when visiting views_list_json/views_list') . '</p>';
+      return $output;
+
+    default:
+  }
+}
