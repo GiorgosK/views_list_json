@@ -4,7 +4,7 @@ Was coded as an exercise [in response to this question in stackexchange ](https:
 
 ## How to use
 - enable the module 
-- vitit `views_list_json/views_list` you should get a response like
+- visit `views_list_json/views_list` you should get a response like
  ```
 {
     view_id: "block_content",
